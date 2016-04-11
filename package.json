@@ -17,6 +17,10 @@
   "publishConfig": {
     "registry": "https://npm.nextthought.com"
   },
+  "scripts": {
+    "bump": "npm version",
+    "postbump": "git push --all && npm publish"
+  },
   "dependencies": {
     "eslint-config-nti-codestyle-js": "^1.0.0",
     "eslint-plugin-react": "^4.0.0"
