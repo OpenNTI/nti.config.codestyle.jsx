@@ -19,7 +19,7 @@
   },
   "scripts": {
     "bump": "npm version",
-    "postbump": "git push --tags && npm publish"
+    "postbump": "git push && git push --tags && npm publish"
   },
   "dependencies": {
     "eslint-config-nti-codestyle-js": "^1.0.0",
