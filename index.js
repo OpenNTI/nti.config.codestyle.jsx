@@ -11,7 +11,7 @@ module.exports = {
 	"settings": {
 		"react": {
 			"pragma": "React",
-			"version": "15.0.1"
+			"version": "15.1.0"
 		}
 	},
 
