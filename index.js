@@ -53,7 +53,7 @@ module.exports = {
 
 		//JSX should always be wrapped in parentheses... especically when multiline.
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
-		"react/wrap-multilines": [2, {declaration: true, assignment: true, return: true}]
+		"react/jsx-wrap-multilines": [2, {declaration: true, assignment: true, return: true}]
 
 		//"react/jsx-handler-names": 1
 	}

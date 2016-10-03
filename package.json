@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "eslint-config-nti-codestyle-js": "^1.0.0",
-    "eslint-plugin-react": "^5.0.0"
+    "eslint-plugin-react": "^6.0.0"
   }
 }
