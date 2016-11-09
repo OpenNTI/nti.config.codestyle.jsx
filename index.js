@@ -30,13 +30,13 @@ module.exports = {
 
 		//Using bind() or arrow functions on props always trigger a prop-change.
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-		"react/jsx-no-bind": [1, {"ignoreRefs": true}],
+		"react/jsx-no-bind": 1,
 
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
 		"react/jsx-no-duplicate-props": 1,
 
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-		"react/jsx-pascal-case": 1,
+		"react/jsx-pascal-case": [1, { "allowAllCaps": true }],
 
 		//React has said in a blog post the string ref is legacy. (which we interpret to mean don't use anymore)
 		//See: http://facebook.github.io/react/docs/more-about-refs.html#the-ref-string-attribute
