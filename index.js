@@ -43,7 +43,7 @@ module.exports = {
 		"react/no-string-refs": 1,
 
 		//React has several ways to define a React Component. The simplest and lightest weight form is
-		//the stateless-function. If the component you are righting can be a stateless-function, it should be.
+		//the stateless-function. If the component you are writing can be a stateless-function, it should be.
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
 		"react/prefer-stateless-function": 1,
 
