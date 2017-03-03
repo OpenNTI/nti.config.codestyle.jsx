@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://repos.nextthought.com/git/nti.config.codestyle.jsx"
+    "url": "https://github.com/NextThought/nti.config.codestyle.jsx.git"
   },
   "keywords": [
     "eslint",
