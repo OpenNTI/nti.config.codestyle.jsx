@@ -10,6 +10,7 @@ module.exports = {
 
 	"settings": {
 		"import/extensions": ['.js', '.jsx'],
+		"import/resolver": "webpack",
 		"react": {
 			"pragma": "React",
 			"version": "15.1.0"
@@ -17,6 +18,8 @@ module.exports = {
 	},
 
 	"rules": {
+		"import/no-extraneous-dependencies": [2, {"devDependencies": true}],
+		
 		//We standarize on using double quotes on JSX props since they look like HTML attributes.
 		//See: http://eslint.org/docs/rules/jsx-quotes
 		"jsx-quotes": [1, "prefer-double"],

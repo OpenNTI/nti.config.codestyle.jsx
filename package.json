@@ -21,8 +21,12 @@
     "bump": "npm version",
     "postversion": "git push && git push --tags && npm publish"
   },
+  "peerDependencies": {
+      "webpack" :"1.x.x || 2.x.x"
+  },
   "dependencies": {
     "eslint-config-nti-codestyle-js": "^1.0.0",
+    "eslint-import-resolver-webpack": "^0.8.1",
     "eslint-plugin-react": "^6.0.0"
   }
 }
