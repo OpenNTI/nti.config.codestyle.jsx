@@ -9,6 +9,7 @@ module.exports = {
 	],
 
 	"settings": {
+		"import/extensions": ['.js', '.jsx'],
 		"react": {
 			"pragma": "React",
 			"version": "15.1.0"
