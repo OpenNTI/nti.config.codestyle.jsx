@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nti-codestyle-jsx",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "NextThought code style standard",
   "main": "index.js",
   "repository": {
