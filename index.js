@@ -13,7 +13,7 @@ module.exports = {
 		"import/resolver": "webpack",
 		"react": {
 			"pragma": "React",
-			"version": "15.1.0"
+			"version": "15.5.0"
 		}
 	},
 
