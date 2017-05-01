@@ -49,7 +49,7 @@ module.exports = {
 		//React has several ways to define a React Component. The simplest and lightest weight form is
 		//the stateless-function. If the component you are writing can be a stateless-function, it should be.
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-		"react/prefer-stateless-function": 1,
+		"react/prefer-stateless-function": [1, { "ignorePureComponents": true }],
 
 		//All child-less elements should self close. ex:  <div></div> should be <div/>
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
