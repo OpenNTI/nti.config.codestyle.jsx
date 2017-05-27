@@ -35,6 +35,8 @@ module.exports = {
 		//Using bind() or arrow functions on props always trigger a prop-change.
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
 		"react/jsx-no-bind": 1,
+		
+		"react/no-children-prop": 1,
 
 		//See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
 		"react/jsx-no-duplicate-props": 1,
