@@ -22,7 +22,8 @@
     "postversion": "git push && git push --tags && npm publish"
   },
   "peerDependencies": {
-    "webpack": "1.x.x || 2.x.x"
+    "webpack": "*",
+    "react": "*"
   },
   "dependencies": {
     "eslint-config-nti-codestyle-js": "^1.0.0",
