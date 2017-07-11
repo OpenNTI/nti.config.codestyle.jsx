@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "eslint-config-nti-codestyle-js": "^1.0.0",
-    "eslint-import-resolver-webpack": "^0.8.1",
     "eslint-plugin-react": "^7.0.0",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0"

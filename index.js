@@ -6,7 +6,15 @@ module.exports = {
 
 	settings: {
 		'import/extensions': ['.js', '.jsx'],
-		'import/resolver': 'webpack',
+		'import/resolver': {
+			'node':
+				'extensions': ['.js', '.jsx'],
+				'moduleDirectory': [
+					'node_modules',
+					'src/main/js'
+				]
+			}
+		}
 		'react': {
 			pragma: 'React',
 			version: require('react/package.json').version
