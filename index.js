@@ -14,7 +14,7 @@ module.exports = {
 					'src/main/js'
 				]
 			}
-		}
+		},
 		'react': {
 			pragma: 'React',
 			version: require('react/package.json').version
